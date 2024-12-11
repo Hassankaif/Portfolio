@@ -1,0 +1,65 @@
+export const Homedata={
+    title:'Hello, I’m Hassan Kaif',
+    decs1:"a tech enthusiast passionate about AI, blockchain, and web development.",
+    desc2:" I love crafting innovative solutions that bridge technology with real-world needs. ",
+    desc3:"Let’s innovate, inspire, and build the future together!"
+}
+
+export const Aboutdata={
+    title:"ABOUT ME",
+    subtitle:"who am i and what i do",
+    desc: "Hello, I’m Hassan Kaif, a third-year B.E. Computer Science student with a passion for turning innovative ideas into impactful tech solutions. My journey in AI, machine learning, and blockchain is fueled by curiosity and a desire to create systems that solve real-world problems. I’ve developed projects ranging from automated auditing tools to blockchain-powered water conservation systems. Certified in diverse domains, including neural networks and blockchain, I strive to bridge the gap between technology and everyday life. When I’m not coding, I enjoy exploring new technologies and brainstorming creative solutions."
+}
+
+export const Domaindata=[
+    {
+        id:1,
+        title:"Machine Learning",
+        desc:"I harness the power of machine learning to develop intelligent systems that make data-driven decisions. My projects range from image recognition for social media analysis to energy consumption forecasting using neural networks."
+    },
+    {
+        id:2,
+        title:"Blockchain Development",
+        desc:"Blockchain excites me for its transparency and potential to revolutionize industries. I’ve worked on projects like water management systems and decentralized apps, combining predictive analytics with secure, decentralized networks."
+    },
+    {
+        id:3,
+        title:"Web Development",
+        desc:"With a solid foundation in HTML, CSS, JavaScript, and frameworks like React, I create dynamic web applications. My focus is on delivering seamless user experiences and robust backend architectures."
+    }
+]
+
+export const Academicdata={
+    sslc:78, hsc:91, cgpa:8.83
+}
+
+export const Projectdata=[
+    {
+        id:1,
+        title:"Automated CIS Benchmark Auditing Tool",
+        desc:"Designed an automated tool for auditing CIS benchmarks across Windows and Linux systems, complete with a GUI for customizable PDF report generation.",
+        githublink:"#",
+        demolink:"#"
+    },
+    {
+        id:2,
+        title:"Blockchain-Based Water Conservation Project",
+        desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
+        githublink:"#",
+        demolink:"#"
+    },
+    {
+        id:3,
+        title:"Fake Instagram Profile Classification",
+        desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
+        githublink:"#",
+        demolink:"#"
+    },
+    {
+        id:4,
+        title:"Rock-Paper-Scissors Game",
+        desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
+        githublink:"#",
+        demolink:"#"
+    }
+]
