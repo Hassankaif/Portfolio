@@ -40,6 +40,7 @@ const Academics = () => {
     }, [hsc, sslc, cgpa]);
 
     return <>
+    <section id='academics-section'>
         <div className='bg-gradient-to-tr from-emerald-300 via-gray-50 to-red-200'>
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-12 gap-8">
                 <h1 className="max-w-xl text-center md:text-justify text-3xl md:text-4xl font-bold text-gray-800">
@@ -86,6 +87,7 @@ const Academics = () => {
                 </div>
             </div>
         </div>
+    </section>
     </>
 };
 

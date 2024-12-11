@@ -4,6 +4,7 @@ import { Domaindata } from '../utils/database'
 const DomainofInterest = () => {
 
   return <>
+    <section id='domain-section'> </section>
         <div className='bg-gradient-to-tr from-blue-300 via-gray-50 to-gray-50'>
             {/* heading */}
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-12 gap-8 ">

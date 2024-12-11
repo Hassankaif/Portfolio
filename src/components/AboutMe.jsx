@@ -5,6 +5,7 @@ import { Aboutdata } from '../utils/database';
 const AboutMe = () => {
     const data=Aboutdata;
   return (
+  <section id='about-me-section'>
     <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-12 gap-8 bg-gradient-to-br from-blue-300 via-gray-50 to-red-200">
       {/* Image */}
       <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-500">
@@ -27,6 +28,7 @@ const AboutMe = () => {
         </p>
       </div>
     </div>
+  </section>
   );
 };
 

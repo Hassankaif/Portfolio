@@ -28,12 +28,12 @@ const Footer = () => {
         <div className="flex flex-col">
           <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
           <ul>
-            <li><a href="#home" className="text-lg hover:text-blue-500">Home</a></li>
-            <li><a href="#interest" className="text-lg hover:text-blue-500">Interest</a></li>
-            <li><a href="#skill" className="text-lg hover:text-blue-500">Skill</a></li>
-            <li><a href="#about-me" className="text-lg hover:text-blue-500">About Me</a></li>
-            <li><a href="#project" className="text-lg hover:text-blue-500">Project</a></li>
-            <li><a href="#academic" className="text-lg hover:text-blue-500">Academic</a></li>
+            <li><a href="#home-section" className="text-lg hover:text-blue-500">Home</a></li>
+            <li><a href="#domain-section" className="text-lg hover:text-blue-500">Interest</a></li>
+            <li><a href="#skill-section" className="text-lg hover:text-blue-500">Skill</a></li>
+            <li><a href="#about-me-section" className="text-lg hover:text-blue-500">About Me</a></li>
+            <li><a href="#project-section" className="text-lg hover:text-blue-500">Project</a></li>
+            <li><a href="#academic-section" className="text-lg hover:text-blue-500">Academic</a></li>
           </ul>
         </div>
 
