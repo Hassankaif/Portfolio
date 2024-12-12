@@ -16,19 +16,19 @@ export const Domaindata=[
         id:1,
         title:"Machine Learning",
         desc:"I passionate about machine learning to develop intelligent systems that make data-driven decisions. My projects range from image recognition for social media analysis to energy consumption forecasting using neural networks.",
-        logo:'src/assets/icons/mllogo.png'
+        logo:'/mllogo.png'
     },
     {
         id:2,
         title:"Blockchain Development",
         desc:"Blockchain excites me for its transparency and potential to revolutionize industries. I’ve worked on projects like water management systems and decentralized apps, combining predictive analytics with secure, decentralized networks.",
-        logo:'src/assets/icons/blockchainlogo.png'
+        logo:'/blockchainlogo.png'
     },
     {
         id:3,
         title:"Web Development",
         desc:"With a solid foundation in HTML, CSS, JavaScript, and frameworks like React, I create dynamic web applications. My focus is on delivering seamless user experiences and robust backend architectures.",
-        logo:'src/assets/icons/weblogo.svg'
+        logo:'/weblogo.svg'
     }
 ]
 
@@ -43,7 +43,7 @@ export const Projectdata=[
         desc:"Designed an automated tool for auditing CIS benchmarks across Windows and Linux systems, complete with a GUI for customizable PDF report generation.",
         githublink:"https://github.com/Hassankaif/SIH24",
         demolink:"#",
-        img:'src/assets/icons/sih24.png'
+        img:'/sih24.png'
     },
     {
         id:2,
@@ -51,7 +51,7 @@ export const Projectdata=[
         desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
         githublink:"https://github.com/Hassankaif/smart-water-management-system",
         demolink:"#",
-        img:'src/assets/icons/swms1.png'
+        img:'/swms1.png'
     },
     {
         id:3,
@@ -59,7 +59,7 @@ export const Projectdata=[
         desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
         githublink:"https://github.com/Hassankaif/fake-Instagram-profile-detection",
         demolink:"#",
-        img:'src/assets/icons/fakespotter2.png'
+        img:'/fakespotter2.png'
     },
     {
         id:4,
@@ -67,7 +67,7 @@ export const Projectdata=[
         desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
         githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
         demolink:"#",
-        img:'src/assets/icons/rpslogo.png'
+        img:'/rpslogo.png'
     },
     {
         id:5,
@@ -75,6 +75,6 @@ export const Projectdata=[
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
         githublink:"https://github.com/Hassankaif/Event-Management-System",
         demolink:"#",
-        img:'src/assets/icons/ems1.png'
+        img:'/ems1.png'
     }
 ]

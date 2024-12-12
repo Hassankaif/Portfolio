@@ -1,5 +1,5 @@
 import React from 'react';
-import profileimg from '../assets/icons/profile.png'
+import profileimg from '/profile.png'
 import { Aboutdata } from '../utils/database';
 
 const AboutMe = () => {

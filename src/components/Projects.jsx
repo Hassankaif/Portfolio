@@ -1,6 +1,6 @@
 import React from "react";
 import Card from './Card';
-import { Projectdata } from '../utils/database'; // Ensure the correct path
+import { Projectdata } from '../utils/database'; 
 
 const Projects = () => {
 

@@ -1,18 +1,18 @@
 import React from 'react'
 
-import HtmlLogo from "../assets/icons/htmllogo.svg";
-import CssLogo from "../assets/icons/csslogo.svg";
-import JsLogo from "../assets/icons/jslogo.svg";
-import ReactLogo from "../assets/icons/reactlogo.svg";
-import flaskLogo from "../assets/icons/flasklogo.svg";
-import javaLogo from "../assets/icons/javalogo.svg";
-import pythonLogo from "../assets/icons/pythonlogo.svg";
-import sqldbLogo from "../assets/icons/sqldblogo.svg";
-import mongodbLogo from "../assets/icons/mongodblogo.svg";
-import tensorflowLogo from "../assets/icons/tensorflowlogo.svg";
-import tailwindcssLogo from "../assets/icons/tailwindlogo2.svg";
-import solidityLogo from "../assets/icons/soliditylogo.svg";
-import etherLogo from "../assets/icons/ethereumlogo.svg";
+import HtmlLogo from "/htmllogo.svg";
+import CssLogo from "/csslogo.svg";
+import JsLogo from "/jslogo.svg";
+import ReactLogo from "/reactlogo.svg";
+import flaskLogo from "/flasklogo.svg";
+import javaLogo from "/javalogo.svg";
+import pythonLogo from "/pythonlogo.svg";
+import sqldbLogo from "/sqldblogo.svg";
+// import mongodbLogo from "/mongodblogo.svg";
+import tensorflowLogo from "/tensorflowlogo.svg";
+import tailwindcssLogo from "/tailwindlogo2.svg";
+import solidityLogo from "/soliditylogo.svg";
+import etherLogo from "/ethereumlogo.svg";
 
 const techIcons = [
   { src: HtmlLogo, alt: "HTML" },
