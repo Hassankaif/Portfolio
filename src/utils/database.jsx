@@ -43,7 +43,7 @@ export const Projectdata=[
         desc:"Designed an automated tool for auditing CIS benchmarks across Windows and Linux systems, complete with a GUI for customizable PDF report generation.",
         githublink:"https://github.com/Hassankaif/SIH24",
         demolink:"#",
-        img:'src/assets/icons/fakespotter2.png'
+        img:'src/assets/icons/sih24.png'
     },
     {
         id:2,
@@ -51,7 +51,7 @@ export const Projectdata=[
         desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
         githublink:"https://github.com/Hassankaif/smart-water-management-system",
         demolink:"#",
-        img:'src/assets/icons/fakespotter.png'
+        img:'src/assets/icons/swms1.png'
     },
     {
         id:3,
@@ -67,7 +67,7 @@ export const Projectdata=[
         desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
         githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
         demolink:"#",
-        img:'src/assets/icons/rock-paper-game.png'
+        img:'src/assets/icons/rpslogo.png'
     },
     {
         id:5,
@@ -75,6 +75,6 @@ export const Projectdata=[
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
         githublink:"https://github.com/Hassankaif/Event-Management-System",
         demolink:"#",
-        img:'src/assets/icons/fakespotter2.png'
+        img:'src/assets/icons/ems1.png'
     }
 ]
