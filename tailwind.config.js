@@ -9,7 +9,10 @@ export default {
     extend: {},
   },
   plugins: [
-    // Use import instead of require
-    import('flowbite/plugin')
+    // Use the recommended plugin import
+    (({ addBase, addComponents, theme }) => {
+      const flowbitePlugin = require('flowbite/plugin');
+      return flowbitePlugin({ addBase, addComponents, theme });
+    })
   ],
 }
