@@ -50,7 +50,7 @@ export const Projectdata=[
         title:"Blockchain-Based Water Conservation Project",
         desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
         githublink:"https://github.com/Hassankaif/smart-water-management-system",
-        demolink:"https://youtu.be/n_Dz0HTKibY",
+        demolink:"https://youtu.be/1gcu1G0B1Mg",
         img:'/swms1.png'
     },
     {
