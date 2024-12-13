@@ -42,7 +42,7 @@ export const Projectdata=[
         title:"Automated CIS Benchmark Auditing Tool",
         desc:"Designed an automated tool for auditing CIS benchmarks across Windows and Linux systems, complete with a GUI for customizable PDF report generation.",
         githublink:"https://github.com/Hassankaif/SIH24",
-        demolink:"#",
+        demolink:"https://youtu.be/roPAiHNzMLc",
         img:'/sih24.png'
     },
     {
@@ -50,7 +50,7 @@ export const Projectdata=[
         title:"Blockchain-Based Water Conservation Project",
         desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
         githublink:"https://github.com/Hassankaif/smart-water-management-system",
-        demolink:"#",
+        demolink:"https://youtu.be/n_Dz0HTKibY",
         img:'/swms1.png'
     },
     {
@@ -58,7 +58,7 @@ export const Projectdata=[
         title:"Fake Instagram Profile Classification",
         desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
         githublink:"https://github.com/Hassankaif/fake-Instagram-profile-detection",
-        demolink:"#",
+        demolink:"https://youtu.be/c4WKmEPYE8k",
         img:'/fakespotter2.png'
     },
     {
@@ -66,7 +66,7 @@ export const Projectdata=[
         title:"Rock-Paper-Scissors Game",
         desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
         githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
-        demolink:"#",
+        demolink:"https://youtu.be/nRmTeEfKYUY",
         img:'/rpslogo.png'
     },
     {
@@ -74,7 +74,7 @@ export const Projectdata=[
         title:"Event Management System",
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
         githublink:"https://github.com/Hassankaif/Event-Management-System",
-        demolink:"#",
+        demolink:"https://youtu.be/bVYzo0DXzEE",
         img:'/ems1.png'
     }
 ]
