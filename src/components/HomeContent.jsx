@@ -10,7 +10,7 @@ const HomeContent = () => {
           Hi there! <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400" >I'm Hassan Kaif</span> 
           </h1>
           <p class="mt-4 text-lg font-normal text-gray-500 dark:text-gray-400 sm:px-16 lg:px-48">
-          A Computer Science Undergraduate Student passionate about Machine Learning, Artificial Intelligence, and Blockchain Technology. 
+          A Computer Science Undergraduate Student passionate about Machine Learning, Web Development, and Blockchain Technology. 
           </p>
           <SocialIcons/>
           <a href="https://drive.google.com/file/d/1PjTJ7W8VpuWuiRrD4OtPtDliaz8PJe5t/view?usp=sharing" download="Resume_Hassan.pdf">
