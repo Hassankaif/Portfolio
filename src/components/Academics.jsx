@@ -62,7 +62,7 @@ const Academics = () => {
             </div>
 
             {/* SSLC Section */}
-            <div>
+            {/* <div>
                 <h4 className="text-2xl text-gray-950 mt-16 ml-16">SSLC Percentage</h4>
                 <div className="w-3/5 bg-gray-300 rounded-full dark:bg-gray-700 mt-2 ml-12" ref={sslcRef}>
                     <div
@@ -72,7 +72,7 @@ const Academics = () => {
                         {sslcProgress}%
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* CGPA Section */}
             <div>
