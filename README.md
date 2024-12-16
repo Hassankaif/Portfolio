@@ -27,17 +27,17 @@ Link : https://portfolio-one-beta-99.vercel.app/
 
 3. Sections Included:
 
-Home
+        Home
 
-About Me
+        About Me
 
-Skills
+        Skills
 
-Projects
+        Projects
 
-Domain of Interest
+        Domain of Interest
 
-Academic Achievements
+        Academic Achievements
 
 4. Dynamic Navbar: Mobile-friendly and easy-to-navigate menu.
 
@@ -64,10 +64,10 @@ Your site will be live (with few minutes) with a custom Vercel domain.
 
 
 ## Hero Page
-![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/mllogo.png)
+![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/herpage.png)
 
 # Tools & Tech's
-![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/mllogo.png)
+![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/toolsandtech.png)
 
 ## 🎯 Future Enhancements
 Add a backend using Node.js for dynamic content management.
