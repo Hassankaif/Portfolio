@@ -13,15 +13,15 @@ const DomainofInterest = () => {
                 </h1>
             </div>
             {/* domain cards */}
-            <section class="dark:bg-gray-900 py-8">
-                <div class="container max-w-full">
-                    <div class="flex flex-wrap md:flex-nowrap gap-2">
+            <section className="dark:bg-gray-900 py-8">
+                <div className="container max-w-full p-6">
+                    <div className="flex flex-wrap md:flex-nowrap gap-2">
                         {Domaindata.map(({id,title,desc,logo})=>(
-                                        <a key={id} class="flex flex-col justify-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-fit hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                                            <img class="object-cover w-80 p-4 rounded-t-lg h-40 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={logo} alt="ml logo"></img>
-                                            <div class="flex flex-col justify-center leading-6">
-                                                <h5 class="text-2xl font-bold  text-gray-900 dark:text-white">{title}</h5>
-                                                <p class=" font-extralight text-gray-700 dark:text-gray-400">{desc}</p>
+                                        <a key={id} className="flex flex-col justify-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-fit hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                                            <img className=" w-80 p-4 rounded-t-lg h-40 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={logo} alt="ml logo"></img>
+                                            <div className="flex flex-col justify-center leading-6 p-4">
+                                                <h5 className="text-2xl font-bold  text-gray-900 dark:text-white">{title}</h5>
+                                                <p className=" font-extralight text-gray-700 dark:text-gray-400">{desc}</p>
                                             </div>
                                         </a>
                         ))}

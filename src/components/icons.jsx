@@ -18,7 +18,7 @@ const SocialIcons = () => {
 
       {/* LinkedIn Icon */}
       <a href="https://www.linkedin.com/in/hassan-kaif-a03028257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
-      class='bg-gradient-to-b from-blue-600 to-blue-800 text-white p-2 rounded-full shadow-lg hover:scale-110 transition-transform duration-300'>
+      className='bg-gradient-to-b from-blue-600 to-blue-800 text-white p-2 rounded-full shadow-lg hover:scale-110 transition-transform duration-300'>
         <FaLinkedin size={30} />
       </a>
     </div>
