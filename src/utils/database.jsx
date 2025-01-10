@@ -33,7 +33,7 @@ export const Domaindata=[
 ]
 
 export const Academicdata={
-    sslc:78, hsc:91, cgpa:8.83
+    sslc:78, hsc:91, cgpa:8.7
 }
 
 export const Projectdata=[
@@ -53,24 +53,24 @@ export const Projectdata=[
         demolink:"https://youtu.be/1gcu1G0B1Mg",
         img:'/swms1.png'
     },
+    // {
+    //     id:4,
+    //     title:"Fake Instagram Profile Classification",
+    //     desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
+    //     githublink:"https://github.com/Hassankaif/fake-Instagram-profile-detection",
+    //     demolink:"https://youtu.be/c4WKmEPYE8k",
+    //     img:'/fakespotter2.png'
+    // },
+    // {
+    //     id:5,
+    //     title:"Rock-Paper-Scissors Game",
+    //     desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
+    //     githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
+    //     demolink:"https://youtu.be/nRmTeEfKYUY",
+    //     img:'/rpslogo.png'
+    // },
     {
         id:3,
-        title:"Fake Instagram Profile Classification",
-        desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
-        githublink:"https://github.com/Hassankaif/fake-Instagram-profile-detection",
-        demolink:"https://youtu.be/c4WKmEPYE8k",
-        img:'/fakespotter2.png'
-    },
-    {
-        id:4,
-        title:"Rock-Paper-Scissors Game",
-        desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
-        githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
-        demolink:"https://youtu.be/nRmTeEfKYUY",
-        img:'/rpslogo.png'
-    },
-    {
-        id:5,
         title:"Event Management System",
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
         githublink:"https://github.com/Hassankaif/Event-Management-System",

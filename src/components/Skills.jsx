@@ -1,11 +1,10 @@
 import React from 'react'
-
-import HtmlLogo from "/htmllogo.svg";
-import CssLogo from "/csslogo.svg";
+import htmlcsslogo from "/html-css.png"
 import JsLogo from "/jslogo.svg";
 import ReactLogo from "/reactlogo.svg";
+import Expressjs from "/ExpressJS.png"
 import flaskLogo from "/flasklogo.svg";
-import javaLogo from "/javalogo.svg";
+import nodejsLogo from "/nodejs.svg";
 import pythonLogo from "/pythonlogo.svg";
 import sqldbLogo from "/sqldblogo.svg";
 // import mongodbLogo from "/mongodblogo.svg";
@@ -14,19 +13,23 @@ import tailwindcssLogo from "/tailwindlogo2.svg";
 import solidityLogo from "/soliditylogo.svg";
 import etherLogo from "/ethereumlogo.svg";
 
+
 const techIcons = [
-  { src: HtmlLogo, alt: "HTML" },
-  { src: CssLogo, alt: "CSS" },
   { src: JsLogo, alt: "JavaScript" },
-  { src: ReactLogo, alt: "React.js" },
-  { src: javaLogo , alt: "java" },
   { src: pythonLogo , alt: "python" },
+  { src: solidityLogo, alt: "Solidity" },
+  { src: htmlcsslogo, alt: "HTML / CSS" },
+
+  { src: ReactLogo, alt: "React.js" },
+  { src: nodejsLogo , alt: "Node JS" },
+  { src: Expressjs, alt: "Express JS" },
   { src: tailwindcssLogo, alt: "Tailwind CSS" },
+
   { src: sqldbLogo, alt: "MySQL" },
   { src: tensorflowLogo, alt: "Tensorflow/keras" },
   { src: flaskLogo, alt: "Flask" },
   { src: etherLogo, alt: "Ganache Testnet" },
-  { src: solidityLogo, alt: "Solidity" }
+
 ];
 
 
