@@ -71,6 +71,14 @@ export const Projectdata=[
     // },
     {
         id:3,
+        title:" Lottery DApp",
+        desc:"Decentralized Ethereum Lottery Application🎲 : Built with Solidity ⚙️, React⚡and Flowbite, this decentralized application allows users to participate in a lottery by contributing 1 Ether. The manager (contract deployer) selects the winner securely using blockchain data and transfers the money in ETH.",
+        githublink:"https://github.com/Hassankaif/Lottery_Dapp",
+        demolink:"https://youtu.be/YnXSqPTI8Y0?si=wgQX9K6elheVF1Y7",
+        img:'/lottery-dapp.png'
+    },
+    {
+        id:4,
         title:"Event Management System",
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
         githublink:"https://github.com/Hassankaif/Event-Management-System",
