@@ -3,7 +3,7 @@
 
 A fully responsive single-page application (SPA) portfolio website created to showcase my skills, projects, academic achievements, and interests. The website includes smooth navigation, dynamic design, and is optimized for both desktop and mobile devices. It provides an interactive experience for visitors and highlights my journey in tech.
 
-# 🛠️ Tools and Technologies Used
+## 🛠️ Tools and Technologies Used
 
 Frontend: React.js, Tailwind CSS.
 
@@ -17,9 +17,11 @@ Version Control: Git and GitHub
 
 Deployment: Vercel cloud platform
 
-Link : https://portfolio-one-beta-99.vercel.app/
+##
 
-# 🚀 Features
+## Click the Link  [Portfolio](https://portfolio-one-beta-99.vercel.app/) 🚀 
+
+##  Features
 
 1. Responsive Design: Works seamlessly across all devices.
 
@@ -27,17 +29,17 @@ Link : https://portfolio-one-beta-99.vercel.app/
 
 3. Sections Included:
 
-        Home
+   -  Home
 
-        About Me
+   - About Me
 
-        Skills
+   - Skills
 
-        Projects
+   - Projects
 
-        Domain of Interest
+   - Domain of Interest
 
-        Academic Achievements
+   - Academic Achievements
 
 4. Dynamic Navbar: Mobile-friendly and easy-to-navigate menu.
 
@@ -64,10 +66,10 @@ Your site will be live (with few minutes) with a custom Vercel domain.
 
 
 ## Hero Page
-![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/herpage.png)
+![Logo](/public/herpage.png)
 
 # Tools & Tech's
-![Logo](https://github.com/Hassankaif/Portfolio/blob/main/public/toolsandtech.png)
+![Logo](/public/toolsandtech.png)
 
 ## 🎯 Future Enhancements
 Add a backend using Node.js for dynamic content management.

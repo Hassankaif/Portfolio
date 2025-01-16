@@ -15,7 +15,7 @@ const Card = ({ img, title, desc, githublink, demolink }) => {
         <h2 className="text-xl font-bold text-gray-800 mb-3">{title}</h2>
         <p className="text-gray-600 mb-4">{desc}</p>
         <div className="flex justify-between gap-4">
-          {/* GitHub Button */}
+          {/* GitHub Button */} 
           <a
             href={githublink}
             target="_blank"
