@@ -7,9 +7,11 @@ const HomeContent = () => {
   return (
     <>
       <section className="bg-gray-50 dark:bg-gray-900" id='home-section'>
-        <div className="max-w-screen-xl px-4 py-16 mx-auto text-center lg:py-32 lg:px-12">
+        <div className="max-w-screen-xl px-4 py-32 mx-auto text-center lg:py-32 lg:px-12">
           <h1 className="text-4xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-          Hi there! <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400" >I'm Hassan Kaif</span> 
+          Hi there! 
+          <br className="block  md:hidden" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 " >  I'm Hassan Kaif</span> 
           </h1>
           <p className="mt-4 text-lg font-normal text-gray-500 dark:text-gray-400 sm:px-16 lg:px-48">
           A Computer Science Undergraduate Student passionate about Machine Learning, Web Development, and Blockchain Technology. 

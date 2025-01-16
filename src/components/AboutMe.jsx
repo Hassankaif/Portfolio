@@ -30,8 +30,8 @@ const AboutMe = () => {
           <h2 className="text-xl md:text-2xl text-blue-500 mt-2">
             Pre-Final Year Engineering UnderGraduate
           </h2>
-          <p className="text-gray-600 mt-4">{data.desc}</p>
-        </div>
+          <p className="text-gray-900 mt-4 sm:text-left md:text-left lg:text-left xl:text-left 2xl:text-left text-justify">{data.desc}</p>
+          </div>
       </div>
 
       {/* Resume Button centered */}
