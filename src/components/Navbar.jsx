@@ -25,7 +25,7 @@ const Navbar = () => {
   const mobileNavItems = [
     ...navItems,
     { name: 'About Me', href: '/#about-me-section' },
-    { name: 'Academic', href: '/#academic-section' },
+    { name: 'Academic', href: '#academics-section' },
   ];
 
   return (
@@ -98,7 +98,7 @@ const Navbar = () => {
                     <motion.a
                       key={item.name}
                       href={item.href}
-                      onClick={() => setIsOpen(false)}
+                      onClick={() => setIsOpen(true)}
                       className="flex items-center justify-between text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 px-3 py-2 rounded-md text-base font-medium group"
                       whileHover={{ x: 4 }}
                       transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -118,3 +118,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

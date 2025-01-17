@@ -6,7 +6,7 @@ const HomeContent = () => {
 
   return (
     <>
-      <section className="bg-gray-50 dark:bg-gray-900" id='home-section'>
+      <section className="bg-sky-50 dark:bg-gray-900 mt-28" id='home-section'>
         <div className="max-w-screen-xl px-4 py-32 mx-auto text-center lg:py-32 lg:px-12">
           <h1 className="text-4xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
           Hi there! 

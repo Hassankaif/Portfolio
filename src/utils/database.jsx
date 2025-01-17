@@ -16,19 +16,24 @@ export const Domaindata=[
         id:1,
         title:"Machine Learning",
         desc:"I passionate about machine learning to develop intelligent systems that make data-driven decisions. My projects range from image recognition for social media analysis to energy consumption forecasting using neural networks.",
-        logo:'/mllogo.png'
+        logo:'/mllogo.png',
+        bgColor: "from-purple-50 to-purple-100"
     },
     {
         id:2,
         title:"Blockchain Development",
         desc:"Blockchain excites me for its transparency and potential to revolutionize industries. I’ve worked on projects like water management systems and decentralized apps, combining predictive analytics with secure, decentralized networks.",
-        logo:'/blockchainlogo.png'
+        logo:'/blockchainlogo.png',
+        bgColor: "from-green-50 to-green-100"
+
     },
     {
         id:3,
         title:"Web Development",
         desc:"With a solid foundation in HTML, CSS, JavaScript, and frameworks like React, I create dynamic web applications. My focus is on delivering seamless user experiences and robust backend architectures.",
-        logo:'/weblogo.svg'
+        logo:'/weblogo.svg',
+        bgColor: "from-blue-50 to-blue-100"
+
     }
 ]
 
@@ -138,3 +143,54 @@ export const Projectdata=[
     //     demolink:"https://youtu.be/nRmTeEfKYUY",
     //     img:'/rpslogo.png'
     // },
+
+   export const courses = [
+        {
+          title: "Machine Learning",
+          platform: "IBM Skill Build",
+          completion: "2023",
+          certificate: true,
+        },
+        {
+            title: "Deep Learning",
+            platform: "SimpliLearn",
+            completion: "2024",
+            certificate: true,
+          },
+          {
+            title: "Introduction to AI",
+            platform: "Great Learning",
+            completion: "2023",
+            certificate: true,
+          },
+          {
+            title: "Image Classification and Processing",
+            platform: "SimpliLearn",
+            completion: "2024",
+            certificate: true,
+          },
+        {
+          title: "Ethereum Fundamentals",
+          platform: "Kerala Blockchain Academy",
+          completion: "2024",
+          certificate: true,
+        },
+        {
+            title: "Blockchain Foundation Program",
+            platform: "Kerala Blockchain Academy",
+            completion: "2023",
+            certificate: true,
+          },
+        {
+          title: "Data Structures in Python",
+          platform: "Sololearn",
+          completion: "2022",
+          certificate: true,
+        },
+        {
+            title: "Python for Data Science",
+            platform: "Sololearn",
+            completion: "2022",
+            certificate: true,
+          }
+      ];

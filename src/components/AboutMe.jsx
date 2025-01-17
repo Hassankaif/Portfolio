@@ -12,7 +12,7 @@ const AboutMe = () => {
   const handleCloseResume = () => setIsResumeOpen(false);
 
   return (
-    <section id="about-me-section" className="bg-gradient-to-br from-blue-300 via-gray-50 to-red-200">
+    <section id="about-me-section" className="bg-gradient-to-br from-blue-300 via-gray-50 to-red-200 pt-28">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-6 pb-12 gap-8">
         {/* Image */}
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-blue-500">
