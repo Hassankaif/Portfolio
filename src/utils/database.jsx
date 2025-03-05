@@ -75,9 +75,30 @@ export const Projectdata=[
         demolink:"https://youtu.be/1gcu1G0B1Mg",
         img:'/swms1.png'
     },
+    
+      {
+        id: 3,
+        title: "AI-Powered Colocasia Leaf Disease Detection & Recommendation System",
+        technology: [
+            "Streamlit", "TensorFlow", "EfficientNet", "ResNet", "Transformers", "PyTorch", "Pandas"
+        ],
+        desc: "An AI-powered web application that detects diseases in Colocasia Esculenta leaves using deep learning models and provides AI-generated remedies based on disease symptoms.",
+        features: [
+            "🖼️ Image-Based Detection: Classifies leaf images using ResNet50 and EfficientNetB3 models.",
+            "🤖 AI-Powered Recommendations: Utilizes Google FLAN-T5 and BART-based models for disease remedy generation.",
+            "📊 Dual Model Classification: Users can select between ResNet50 and EfficientNetB3 for predictions.",
+            "🌿 Disease Remedy Dataset: Enhances recommendations using a curated dataset of Colocasia diseases and treatments.",
+            "🔗 URL & File Upload Support: Users can upload images or provide URLs for disease detection."
+        ],
+        githublink:"https://github.com/Hassankaif/ColocasiaHealthAI",
+        demolink:"https://youtu.be/6UIVZW_bsHM",
+        img:'/Colocasia.png'
+      },
+  
+
 
     {
-        id:3,
+        id:5,
         title:" Lottery DApp",
         technology:['React', 'Tailwind', 'Web3','Ganache','Truffle', 'Blockchain'],
         desc:"Decentralized Ethereum Lottery Application🎲 : Built with Solidity ⚙️, React⚡and Flowbite, this decentralized application allows users to participate in a lottery by contributing 1 Ether. The manager (contract deployer) selects the winner securely using blockchain data and transfers the money in ETH.",
@@ -112,7 +133,7 @@ export const Projectdata=[
     },
 
     {
-        id:5,
+        id:6,
         title:"Event Management System",
         technology:['React', 'CSS3', 'Web Development'],
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",

@@ -34,6 +34,13 @@ const ProjectPage = () => {
       'reportLab': '📑',
       'PowerShell': '🚀',
       'IPFS Storage': '🗄️',
+      'Streamlit': '🚀',      // Represents web-based app deployment
+      'TensorFlow': '🔶',     // Official TensorFlow logo color
+      'EfficientNet': '🖼️',   // Image classification focus
+      'ResNet': '📷',         // Camera symbol for image-based models
+      'Transformers': '🧠',   // AI & NLP-related processing
+      'PyTorch': '🔥',        // Official PyTorch fire symbol
+      'Pandas': '📊' ,
       'default': '💻'
     };
     return icons[techName] || icons.default;
