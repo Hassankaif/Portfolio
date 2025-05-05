@@ -94,11 +94,46 @@ export const Projectdata=[
         demolink:"https://youtu.be/6UIVZW_bsHM",
         img:'/Colocasia.png'
       },
-  
-
-
+      {
+        id: 4,
+        title: "Healthcare Management System",
+        technology: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'TailwindCSS', 'Material UI'],
+        desc: "A modern full-stack web application designed to streamline healthcare management for patients, doctors, and administrators with comprehensive user management and medical record features.",
+        features: [
+            '👤 Authentication & Authorization: Secure login/signup with role-based access for Patients, Doctors, and Admins.',
+            '📅 Appointment Management: Book, approve/reject, and track appointments through an intuitive dashboard.',
+            '📝 Prescription System: Doctors can create prescriptions that patients can view in their portal.',
+            '📄 Medical Reports: Secure upload and access to medical reports for better healthcare tracking.',
+            '🆘 Emergency Contacts: Patients can manage their emergency contact information for critical situations.',
+            '🧑‍⚕️ Admin Controls: Comprehensive admin panel to manage users and approve doctor registrations.',
+            '🔐 Secure Data Handling: JWT and cookie-based authentication with proper data protection.'
+        ],
+        githublink: "https://github.com/Sanjal28/Quibo_HealthCareApp",
+        // demolink: "https://healthcare-management-demo.vercel.app",
+        img: '/hms.png'
+    }
+    ,
     {
-        id:5,
+      id: 5,
+      title: "FitnessRewards - Blockchain-Based Fitness Reward System",
+      technology: ['React.js', 'Solidity', 'Ethers.js', 'MetaMask', 'Tailwind CSS', 'Material UI', 'Remix IDE'],
+      desc: "A decentralized application (dApp) that incentivizes fitness by allowing users to log workouts, earn FIT tokens, and redeem them for rewards using blockchain technology for transparency and data integrity.",
+      features: [
+          '🔗 Wallet Integration: Seamless MetaMask connectivity for blockchain transactions.',
+          '💪 Workout Logging: Track workout type and duration with blockchain verification.',
+          '🪙 Token Rewards: Earn FIT tokens based on workout duration through smart contracts.',
+          '📊 Workout History: View comprehensive workout logs with timestamps and tokens earned.',
+          '🎁 Reward Redemption: Exchange earned tokens for fitness-related rewards.',
+          '👑 Admin Controls: Manage rewards, toggle availability, and monitor system usage.',
+          '🔐 Secure Smart Contracts: Built with Solidity v0.8.20 with proper ownership and security checks.'
+      ],
+      githublink: "https://github.com/Hassankaif/FitnessRewards",
+      // demolink: "https://fitness-rewards.vercel.app",
+      img: '/bfr.png'
+  }
+    ,
+    {
+        id:7,
         title:" Lottery DApp",
         technology:['React', 'Tailwind', 'Web3','Ganache','Truffle', 'Blockchain'],
         desc:"Decentralized Ethereum Lottery Application🎲 : Built with Solidity ⚙️, React⚡and Flowbite, this decentralized application allows users to participate in a lottery by contributing 1 Ether. The manager (contract deployer) selects the winner securely using blockchain data and transfers the money in ETH.",
@@ -114,8 +149,9 @@ export const Projectdata=[
         demolink:"https://youtu.be/YnXSqPTI8Y0?si=wgQX9K6elheVF1Y7",
         img:'/lottery-dapp.png'
     },
+  
     {
-        id:4,
+        id:6,
         title:"Decentralized Marketplace DApp",
         technology:['React', 'Tailwind', 'Web3','IPFS Storage','Solidity','Truffle', 'Blockchain'],
         desc:"A decentralized application (DApp) that allows users to create, buy, and transfer digital assets securely using Ethereum blockchain and IPFS. The project focuses on transparency, security, and ease of use, leveraging the latest Web3 technologies.",
@@ -133,7 +169,7 @@ export const Projectdata=[
     },
 
     {
-        id:6,
+        id:8,
         title:"Event Management System",
         technology:['React', 'CSS3', 'Web Development'],
         desc:"A react application to manage,display and search events like workshop, hackathon and other competitions based on month and year of the Event.",
@@ -149,7 +185,7 @@ export const Projectdata=[
 ]
 
     // {
-    //     id:4,
+    //     id:9,
     //     title:"Fake Instagram Profile Classification",
     //     desc:"Built a Flask-deployed machine learning model to classify Instagram profiles as real or fake, leveraging advanced image recognition techniques.",
     //     githublink:"https://github.com/Hassankaif/fake-Instagram-profile-detection",
@@ -157,7 +193,7 @@ export const Projectdata=[
     //     img:'/fakespotter2.png'
     // },
     // {
-    //     id:5,
+    //     id:10,
     //     title:"Rock-Paper-Scissors Game",
     //     desc:"Created an interactive game using HTML, CSS, and JavaScript, demonstrating a strong understanding of web development principles.",
     //     githublink:"https://github.com/Hassankaif/Simple-Rock-Paper-Scissors-game-P2",
@@ -167,51 +203,99 @@ export const Projectdata=[
 
    export const courses = [
         {
-          title: "Machine Learning",
+          title: "Machine Learning With Python",
           platform: "IBM Skill Build",
           completion: "2023",
           certificate: true,
+          Link:'https://drive.google.com/file/d/15j5UBLIBUe2CSj842JLbhjyeu7Z6pk3y/view?usp=sharing',
         },
         {
-            title: "Deep Learning",
-            platform: "SimpliLearn",
-            completion: "2024",
-            certificate: true,
-          },
+          title: "Machine Learning",
+          platform: "Cognitive Class AI",
+          completion: "2023",
+          certificate: true,
+          Link:'https://drive.google.com/file/d/1OFIDldzrBYWHIzkoXhPgKvUm5J7d28y-/view?usp=drive_link',
+        },
+        // {
+        //     title: "Deep Learning",
+        //     platform: "SimpliLearn",
+        //     completion: "2024",
+        //     certificate: true,
+        //   },
           {
             title: "Introduction to AI",
             platform: "Great Learning",
             completion: "2023",
             certificate: true,
+            Link:'https://drive.google.com/file/d/18hMHt6_rwFB81t5l_hArLxnYoimEDnwR/view?usp=drive_link',
           },
+          {
+            title: "Mastering MS Excel : Beginner to Advance",
+            platform: "Udemy",
+            completion: "2025",
+            certificate: true,
+            Link:'https://drive.google.com/file/d/10vuBqiJ0iy8rHAjqLf1xnGkTTvYW4JtL/view?usp=drive_link',
+          },
+          
           {
             title: "Image Classification and Processing",
             platform: "SimpliLearn",
             completion: "2024",
             certificate: true,
+            Link:'https://drive.google.com/file/d/1p22_oHUZYbR4nwjvVS2bs1zhb-zutnbA/view?usp=drive_link',
           },
         {
           title: "Ethereum Fundamentals",
           platform: "Kerala Blockchain Academy",
           completion: "2024",
           certificate: true,
+          Link:'https://drive.google.com/file/d/1B0kWdNTUQSzBm7oM0XJycN4CL5r_AnY9/view?usp=sharing',
         },
         {
             title: "Blockchain Foundation Program",
             platform: "Kerala Blockchain Academy",
             completion: "2023",
             certificate: true,
+            Link:'https://drive.google.com/file/d/1VbJY0UYXvRUM7dB2fkreji6GcX4HgBFL/view?usp=drive_link',
           },
         {
           title: "Data Structures in Python",
           platform: "Sololearn",
           completion: "2022",
           certificate: true,
+          Link:'https://drive.google.com/file/d/1iYnqaaQmAfIUtiZ3aVkpo8_tklp88cGm/view?usp=sharing'
         },
         {
             title: "Python for Data Science",
-            platform: "Sololearn",
+            platform: "Cognitive Class AI",
             completion: "2022",
             certificate: true,
+            Link:'https://drive.google.com/file/d/1QHe8YEDi-L4lt96LYcSNSpxvn9g7MF70/view?usp=drive_link',
           }
       ];
+
+      const internships = [
+        {
+          company: "Quibo Technologies",
+          duration: "2 Months",
+          role: "MERN Stack Developer",
+          image:'/quiboo.png',
+          start: "March 2025",
+          end: "May 2025",
+          certificate: "/quibo.png",
+          skills: ["React", "Node.js", "MongoDB", "Express"],
+        },
+        {
+          company: "Prompt Infotech",
+          duration: "One Week",
+          role: "Data Science Intern",
+          image:'/promptlogo.jpg',
+          start: "August 2023",
+          end: "August 2023",
+          certificate: "/prompt.png",
+          skills: ["Python", "Data Analysis", "Machine Learning"],
+        },
+      ]
+      
+      export default internships
+      

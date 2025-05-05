@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import ProjectPage from './components/ProjectCard'; // project page
+import Internships from './components/InternCard';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <DomainofInterest />
               <AboutMe />
               <Academics />
+              <Internships />
               <Skills />
               <Projects />
               <Footer />

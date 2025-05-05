@@ -37,7 +37,7 @@ const techIcons = [
 const Skills = () => {
   return <>
     <section id='skills-section'>
-        <div className='bg-gradient-to-br from-emerald-300 via-white to-purple-500 pt-12'>
+        <div className='bg-gradient-to-bl from-pink-300 via-white to-purple-500 pt-12'>
             <div className="flex flex-col md:flex-row items-center md:items-start justify-center p-6 md:p-12 gap-8 ">
                 <h1 className="max-w-2xl text-center md:text-justify text-3xl md:text-4xl font-bold text-gray-800">
                     Tools, Frameworks and Technologies
