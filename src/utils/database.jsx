@@ -232,7 +232,7 @@ export const Projectdata=[
             completion: "2025",
             certificate: true,
             Link:'https://drive.google.com/file/d/10vuBqiJ0iy8rHAjqLf1xnGkTTvYW4JtL/view?usp=drive_link',
-            photo:'/certificate/excel.jpeg'
+            photo:'/certificate/Excel.jpeg'
           },
           
           { id:2,
