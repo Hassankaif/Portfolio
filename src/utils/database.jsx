@@ -201,76 +201,87 @@ export const Projectdata=[
     //     img:'/rpslogo.png'
     // },
 
-   export const courses = [
-        {
+   export const course = [
+        { id:3,
           title: "Machine Learning With Python",
           platform: "IBM Skill Build",
           completion: "2023",
           certificate: true,
           Link:'https://drive.google.com/file/d/15j5UBLIBUe2CSj842JLbhjyeu7Z6pk3y/view?usp=sharing',
+          photo:'/certificate/ibmml.png'
         },
-        {
-          title: "Machine Learning",
+        { id:6,
+          title: "Machine Learning",  
           platform: "Cognitive Class AI",
           completion: "2023",
           certificate: true,
           Link:'https://drive.google.com/file/d/1OFIDldzrBYWHIzkoXhPgKvUm5J7d28y-/view?usp=drive_link',
+          photo:'/certificate/pyml.png'
         },
-        // {
-        //     title: "Deep Learning",
-        //     platform: "SimpliLearn",
-        //     completion: "2024",
-        //     certificate: true,
-        //   },
-          {
+          { id:5,
             title: "Introduction to AI",
             platform: "Great Learning",
             completion: "2023",
             certificate: true,
             Link:'https://drive.google.com/file/d/18hMHt6_rwFB81t5l_hArLxnYoimEDnwR/view?usp=drive_link',
+            photo:'/certificate/glai.png'
           },
-          {
+          { id:4,
             title: "Mastering MS Excel : Beginner to Advance",
             platform: "Udemy",
             completion: "2025",
             certificate: true,
             Link:'https://drive.google.com/file/d/10vuBqiJ0iy8rHAjqLf1xnGkTTvYW4JtL/view?usp=drive_link',
+            photo:'/certificate/excel.jpeg'
           },
           
-          {
+          { id:2,
             title: "Image Classification and Processing",
             platform: "SimpliLearn",
             completion: "2024",
             certificate: true,
             Link:'https://drive.google.com/file/d/1p22_oHUZYbR4nwjvVS2bs1zhb-zutnbA/view?usp=drive_link',
+            photo:'/certificate/slimg.png'
           },
-        {
+        { id:7,
           title: "Ethereum Fundamentals",
           platform: "Kerala Blockchain Academy",
           completion: "2024",
           certificate: true,
           Link:'https://drive.google.com/file/d/1B0kWdNTUQSzBm7oM0XJycN4CL5r_AnY9/view?usp=sharing',
+          photo:'/certificate/kba2.jpeg'
         },
-        {
+        { id:8,
             title: "Blockchain Foundation Program",
             platform: "Kerala Blockchain Academy",
             completion: "2023",
             certificate: true,
             Link:'https://drive.google.com/file/d/1VbJY0UYXvRUM7dB2fkreji6GcX4HgBFL/view?usp=drive_link',
+            photo:'/certificate/kba1.jpeg'
           },
-        {
-          title: "Data Structures in Python",
-          platform: "Sololearn",
-          completion: "2022",
+        { id:1,
+          title: "Blockchain and Its Application",
+          platform: "NPTEL",
+          completion: "2025",
           certificate: true,
-          Link:'https://drive.google.com/file/d/1iYnqaaQmAfIUtiZ3aVkpo8_tklp88cGm/view?usp=sharing'
+          Link:'https://drive.google.com/file/d/1vbmi6yBrYtNrGVxdj3IOjUzd3SgXzt3U/view?usp=drivesdk',
+          photo:'/certificate/nptel.png'
         },
-        {
+        { id:9,
             title: "Python for Data Science",
             platform: "Cognitive Class AI",
             completion: "2022",
             certificate: true,
             Link:'https://drive.google.com/file/d/1QHe8YEDi-L4lt96LYcSNSpxvn9g7MF70/view?usp=drive_link',
+            photo:'/certificate/pyds.png'
+          },
+          { id:10,
+            title: "Python Programming",
+            platform: "Skill Rack",
+            completion: "2025",
+            certificate: true,
+            Link:'https://drive.google.com/file/d/1v_WDZRzOc3a1oOiZVvkcpmPy6qsOGjd3/view?usp=drivesdk',
+            photo:'/certificate/skillrack.jpeg'
           }
       ];
 

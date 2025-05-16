@@ -74,9 +74,13 @@ const InternshipCard = () => {
               <div className="backdrop-blur-md bg-white/70 rounded-lg border border-white/50 shadow-md p-5">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="flex flex-col items-center md:items-start">
-                    <div className={`${colors.bg} p-4 rounded-full border ${colors.border}`}>
-                      <Building className={`w-8 h-8 ${colors.text}`} />
-                    </div>
+                      {current.image && (
+                          <img
+                            src={current.image}
+                            alt={`${current.company} logo`}
+                            className="w-14 h-14 object-contain rounded shadow-sm"
+                          />
+                        )}
                     <div className="w-px h-full bg-gray-200 mx-auto my-3 hidden md:block"></div>
                   </div>
 
@@ -87,66 +91,61 @@ const InternshipCard = () => {
                         <span className={`inline-flex items-center text-base font-medium ${colors.text}`}>
                           {current.company}
                         </span>
-                        {current.image && (
-                          <img
-                            src={current.image}
-                            alt={`${current.company} logo`}
-                            className="w-10 h-10 object-contain rounded shadow-sm"
-                          />
-                        )}
                       </div>
                     </div>
 
-                    <div className="flex flex-wrap gap-4 mt-4">
-                      <div className="flex flex-col bg-gray-50/70 rounded-lg p-3 border border-gray-100 min-w-[140px]">
-                        <span className="text-xs text-gray-500 mb-1">Duration</span>
-                        <span className="text-sm font-medium text-gray-800">{current.duration}</span>
-                      </div>
 
-                      <div className="flex flex-col bg-gray-50/70 rounded-lg p-3 border border-gray-100 flex-1">
+                    {current.certificate && (
+                      <div className="mt-5 grid md:grid-cols-2 gap-6 items-start">
+                        
+                        {/* Left Column: Key Skills */}
+                        <div>
+                          <div className="text-xl font-semibold text-black mb-2">Key Skills</div>
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {current.skills.map((skill, index) => (
+                              <span
+                                key={index}
+                                className={`px-2 py-1 rounded-md text-xs font-medium ${colors.text} bg-opacity-10 ${colors.bg} border ${colors.border}`}
+                              >
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
+                          {/* duration dude */}
+                      <div className="flex flex-col gap-4 mt-4">
+                      <div className=" bg-gray-50/70 rounded-lg p-3 border border-gray-100 min-w-[60px]">
+                        <span className="text-xs text-gray-500 mb-1">Duration:  </span>
+                        <span className="text-sm font-medium text-gray-800"> {current.duration}</span>
+                      </div>
+                    </div>
+                          {/* {timeline dude} */}
+                        <div className="flex flex-col bg-gray-50/70 rounded-lg p-3 border border-gray-100 flex-1">
                         <span className="text-xs text-gray-500 mb-1">Timeline</span>
                         <div className="flex items-center text-sm font-medium text-gray-800">
                           <Calendar className="w-4 h-4 mr-1 text-gray-500" />
                           <span>{current.start} — {current.end}</span>
                         </div>
                       </div>
-                    </div>
-                    {current.certificate && (
-  <div className="mt-5 grid md:grid-cols-2 gap-6 items-start">
-    
-    {/* Left Column: Key Skills */}
-    <div>
-      <div className="text-xl font-semibold text-black mb-2">Key Skills</div>
-      <div className="flex flex-wrap gap-2 mb-4">
-        {current.skills.map((skill, index) => (
-          <span
-            key={index}
-            className={`px-2 py-1 rounded-md text-xs font-medium ${colors.text} bg-opacity-10 ${colors.bg} border ${colors.border}`}
-          >
-            {skill}
-          </span>
-        ))}
-      </div>
 
-      {/* Certificate Badge Moved Here */}
-      <div className="mt-16">
-        <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-green-100/70 backdrop-blur-sm text-green-800 border border-green-200/50 shadow-sm">
-          <Award className="w-4 h-4" />
-          Certificate
-        </span>
-      </div>
-    </div>
+                          {/* Certificate Badge Moved Here */}
+                          <div className="mt-4">
+                            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-green-100/70 backdrop-blur-sm text-green-800 border border-green-200/50 shadow-sm">
+                              <Award className="w-4 h-4" />
+                              Certificate
+                            </span>
+                          </div>
+                        </div>
 
-    {/* Right Column: Certificate Image */}
-    <div className="flex justify-center md:justify-end">
-      <img
-        src={current.certificate}
-        alt="Certificate"
-        className="rounded-lg border border-gray-200 shadow-md w-full max-w-sm"
-      />
-    </div>
-  </div>
-)}
+                        {/* Right Column: Certificate Image */}
+                        <div className="flex justify-center md:justify-end">
+                          <img
+                            src={current.certificate}
+                            alt="Certificate"
+                            className="rounded-lg border border-gray-200 shadow-md w-full max-w-sm"
+                          />
+                        </div>
+                      </div>
+                    )}
 
                   </div>
                 </div>

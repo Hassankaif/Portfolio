@@ -28,7 +28,7 @@ const techIcons = [
   { src: sqldbLogo, alt: "MySQL" },
   { src: tensorflowLogo, alt: "Tensorflow/keras" },
   { src: flaskLogo, alt: "Flask" },
-  { src: etherLogo, alt: "Ganache Testnet" },
+  { src: etherLogo, alt: "Dapps Development" },
 
 ];
 

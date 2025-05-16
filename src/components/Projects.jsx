@@ -88,7 +88,7 @@ const Projects = () => {
             Featured Projects
           </h1>
           <p className="max-w-2xl text-lg text-gray-600">
-            Explore my latest works showcasing expertise in web development, blockchain, and more.
+            Explore my latest works showcasing expertise in AI, web development, blockchain, and more.
           </p>
         </div>
 
