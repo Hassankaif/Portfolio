@@ -43,7 +43,7 @@ export const Academicdata={
 
 export const Projectdata=[
     {
-        id:1,
+        id:2,
         title:"Automated CIS Benchmark Auditing Tool",
         technology:['Flask', 'Ubuntu 22.4 LTS', 'Python', 'reportLab','Powershell'],
         desc:"Designed an automated tool for auditing CIS benchmarks across Windows and Linux systems, complete with a GUI for customizable PDF report generation.",
@@ -60,7 +60,7 @@ export const Projectdata=[
         img:'/sih24.png'
     },
     {
-        id:2,
+        id:3,
         title:"Blockchain-Based Water Conservation Project",
         technology:['React', 'Tailwind', 'Node JS', 'MySQL','Truffle','Blockchain','Flask ML Model'],
         desc:"Developing a decentralized system to predict water usage and promote conservation in multi-storey buildings using blockchain technology.",
@@ -77,7 +77,7 @@ export const Projectdata=[
     },
     
       {
-        id: 3,
+        id: 1,
         title: "AI-Powered Colocasia Leaf Disease Detection & Recommendation System",
         technology: [
             "Streamlit", "TensorFlow", "EfficientNet", "ResNet", "Transformers", "PyTorch", "Pandas"
@@ -133,7 +133,7 @@ export const Projectdata=[
   }
     ,
     {
-        id:7,
+        id:9,
         title:" Lottery DApp",
         technology:['React', 'Tailwind', 'Web3','Ganache','Truffle', 'Blockchain'],
         desc:"Decentralized Ethereum Lottery Application🎲 : Built with Solidity ⚙️, React⚡and Flowbite, this decentralized application allows users to participate in a lottery by contributing 1 Ether. The manager (contract deployer) selects the winner securely using blockchain data and transfers the money in ETH.",
@@ -151,7 +151,7 @@ export const Projectdata=[
     },
   
     {
-        id:6,
+        id:7,
         title:"Decentralized Marketplace DApp",
         technology:['React', 'Tailwind', 'Web3','IPFS Storage','Solidity','Truffle', 'Blockchain'],
         desc:"A decentralized application (DApp) that allows users to create, buy, and transfer digital assets securely using Ethereum blockchain and IPFS. The project focuses on transparency, security, and ease of use, leveraging the latest Web3 technologies.",
